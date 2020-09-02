@@ -1,0 +1,78 @@
+body
+{
+	padding:0;
+	margin:0;
+	font-family: 'Alata', sans-serif;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+li > a
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+li > a:hover
+{
+	background-color: green;
+}
+
+h1
+{
+	font-size: 3em;
+	margin:20px auto 20px;
+}
+
+#mynav
+{
+	background-color: grey;
+}
+#mynav a
+{
+	color: white;
+}
+.row div
+{
+	background-color: grey;
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+	padding: 40px 20px 20px 20px;
+	border:1px solid black;
+}
+
+.row span
+{
+	font-size: 1.2em;	
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left : 0px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1px auto 1px;
+	border-bottom: 1px solid black;
+	color:black;
+	background-color: yellow;
+}
+
+#vanilla span
+{
+	background-color: pink;
+	color: black;
+}
+
+#straw span
+{
+	background-color: lightblue;
+	color: brown;	
+}
+
+.col-xs-12 a
+{
+	color: white;
+}
+
